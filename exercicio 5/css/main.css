@@ -1,0 +1,68 @@
+*{
+    margin:1px;
+    padding:1px;
+    background-color:grey;
+  }
+  
+  header{
+    text-align:center;
+  }
+  
+  aside{
+    text-align:center;
+    padding:10px;
+  }
+  
+  
+  .search{
+    float:center;
+    margin:0;
+    height:0;
+    padding:5px;
+    text-align:center;
+    
+  }
+  
+  .searchbar{
+    margin:1px;
+    padding:3px;
+    font-family:tahoma,tahoma;
+    border:solid 1px;
+  
+  }
+  
+  .searchbut{
+    background:black;
+    color:white;
+    cursor:pointer;
+    height:30px;
+    padding:3px;
+    display:flex-end;
+    
+  }
+  
+  .searchbut:hover{
+    background-color:red;
+  }
+  
+  
+  }
+  
+  @media (min-width: 768px) {   
+    .navbar {
+     flex-flow:row wrap;
+      justify-content: flex-end;
+    }
+    
+    .search{
+      flex-flow:row wrap;
+      justify-content:flex-end;
+    }
+  
+    .searchbut{
+      display:flex-end;
+    
+    .aside{
+      flex-flow:row wrap;
+      justify-content:flex-end;
+    }
